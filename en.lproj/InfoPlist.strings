@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  UIWebViewAndWkWebView
+
+  Created by wangsheng on 2019/5/13.
+  Copyright © 2019 wangsheng. All rights reserved.
+*/
+
+"NSPhotoLibraryAddUsageDescription" = "App need open your photo library";
+"NSPhotoLibraryUsageDescription"    = "App need open your photo library";
+

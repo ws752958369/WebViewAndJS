@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>菜鸟教程(runoob.com)</title>
+        <script>
+            
+            function invoke (jsonData){
+                console.log('log invoke:',jsonData);
+                window.WSMessageHandler.postMessage(JSON.stringify(jsonData));
+            }
+            
+            function test1 (res){
+                //alert(res)
+                console.log(res)
+            }
+        
+            function test2 (res){
+                console.log(res);
+                //console.log(11)
+                //confirm(1)
+                //console.log(22)
+            }
+        
+            function test3 (res){
+                console.log(res);
+                //alert('test3')
+            }
+        </script>
+    </head>
+    <body>
+        
+        <div>
+            <Button onclick="invoke({'className':'TestBridge','functionName':'invoice3','params':{'path':'https:www/baidu.com'},'successCallback':'test1','failCallback':'test2'})">button1</Button>
+            <Button onclick="invoke({'className':'TestBridge','functionName':'invoice2','params':{'path':'https:www/baidu.com1'},'successCallback':'test1','failCallback':'test2'})">button2</Button>
+            <Button onclick="invoke({'className':'TestBridge','functionName':'invoice3','params':{'path':'https:www/baidu.com1'},'successCallback':'test1','failCallback':'test2'})">button3</Button>
+        </div>
+        
+    </body>
+</html>

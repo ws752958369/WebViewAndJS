@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  UIWebViewAndWkWebView
+
+  Created by wangsheng on 2019/5/13.
+  Copyright © 2019 wangsheng. All rights reserved.
+*/
+
+"NSPhotoLibraryAddUsageDescription" = "App需要打开您的相册功能";
+"NSPhotoLibraryUsageDescription"    = "App需要打开您的相册功能";
