@@ -15,15 +15,6 @@
 		612FD2EE228A9CD6009D245E /* uiwebview.js in Resources */ = {isa = PBXBuildFile; fileRef = 612FD2ED228A9CD6009D245E /* uiwebview.js */; };
 		612FD2F3228ABE2C009D245E /* VKMsgSend.m in Sources */ = {isa = PBXBuildFile; fileRef = 612FD2F2228ABE2C009D245E /* VKMsgSend.m */; };
 		612FD513228D3CE4009D245E /* WSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 612FD512228D3CE4009D245E /* WSExtension.m */; };
-		6137D96922A8B8C80066DE6C /* DSLetterKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6137D95D22A8B8C80066DE6C /* DSLetterKeyboard.m */; };
-		6137D96A22A8B8C80066DE6C /* DSSymbolKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6137D95F22A8B8C80066DE6C /* DSSymbolKeyboard.xib */; };
-		6137D96B22A8B8C80066DE6C /* DSLetterKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6137D96022A8B8C80066DE6C /* DSLetterKeyboard.xib */; };
-		6137D96C22A8B8C80066DE6C /* DSNumberKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6137D96222A8B8C80066DE6C /* DSNumberKeyboard.m */; };
-		6137D96D22A8B8C80066DE6C /* DSBaseKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6137D96322A8B8C80066DE6C /* DSBaseKeyboard.m */; };
-		6137D96E22A8B8C80066DE6C /* DSKyeboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6137D96422A8B8C80066DE6C /* DSKyeboard.m */; };
-		6137D96F22A8B8C80066DE6C /* DSSymbolKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6137D96522A8B8C80066DE6C /* DSSymbolKeyboard.m */; };
-		6137D97022A8B8C80066DE6C /* SecurityKeyBoard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6137D96722A8B8C80066DE6C /* SecurityKeyBoard.bundle */; };
-		6137D97122A8B8C80066DE6C /* DSNumberBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6137D96822A8B8C80066DE6C /* DSNumberBoard.m */; };
 		6186FC84222D3F39008EF1B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6186FC83222D3F39008EF1B5 /* AppDelegate.m */; };
 		6186FC87222D3F39008EF1B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6186FC86222D3F39008EF1B5 /* ViewController.m */; };
 		6186FC8A222D3F39008EF1B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6186FC88222D3F39008EF1B5 /* Main.storyboard */; };
@@ -71,21 +62,6 @@
 		612FD2F2228ABE2C009D245E /* VKMsgSend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKMsgSend.m; sourceTree = "<group>"; };
 		612FD511228D3CE4009D245E /* WSExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSExtension.h; sourceTree = "<group>"; };
 		612FD512228D3CE4009D245E /* WSExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSExtension.m; sourceTree = "<group>"; };
-		6137D95A22A8B8C80066DE6C /* DSKyeboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSKyeboard.h; sourceTree = "<group>"; };
-		6137D95B22A8B8C80066DE6C /* DSBaseKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSBaseKeyboard.h; sourceTree = "<group>"; };
-		6137D95C22A8B8C80066DE6C /* DSNumberKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSNumberKeyboard.h; sourceTree = "<group>"; };
-		6137D95D22A8B8C80066DE6C /* DSLetterKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLetterKeyboard.m; sourceTree = "<group>"; };
-		6137D95E22A8B8C80066DE6C /* DSSymbolKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSSymbolKeyboard.h; sourceTree = "<group>"; };
-		6137D95F22A8B8C80066DE6C /* DSSymbolKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DSSymbolKeyboard.xib; sourceTree = "<group>"; };
-		6137D96022A8B8C80066DE6C /* DSLetterKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DSLetterKeyboard.xib; sourceTree = "<group>"; };
-		6137D96122A8B8C80066DE6C /* DSNumberBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSNumberBoard.h; sourceTree = "<group>"; };
-		6137D96222A8B8C80066DE6C /* DSNumberKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSNumberKeyboard.m; sourceTree = "<group>"; };
-		6137D96322A8B8C80066DE6C /* DSBaseKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSBaseKeyboard.m; sourceTree = "<group>"; };
-		6137D96422A8B8C80066DE6C /* DSKyeboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSKyeboard.m; sourceTree = "<group>"; };
-		6137D96522A8B8C80066DE6C /* DSSymbolKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSSymbolKeyboard.m; sourceTree = "<group>"; };
-		6137D96622A8B8C80066DE6C /* DSLetterKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLetterKeyboard.h; sourceTree = "<group>"; };
-		6137D96722A8B8C80066DE6C /* SecurityKeyBoard.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SecurityKeyBoard.bundle; sourceTree = "<group>"; };
-		6137D96822A8B8C80066DE6C /* DSNumberBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSNumberBoard.m; sourceTree = "<group>"; };
 		6186FC7F222D3F39008EF1B5 /* UIWebViewAndWkWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIWebViewAndWkWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6186FC82222D3F39008EF1B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6186FC83222D3F39008EF1B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -143,32 +119,9 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6137D95922A8B8C80066DE6C /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				6137D95A22A8B8C80066DE6C /* DSKyeboard.h */,
-				6137D95B22A8B8C80066DE6C /* DSBaseKeyboard.h */,
-				6137D95C22A8B8C80066DE6C /* DSNumberKeyboard.h */,
-				6137D95D22A8B8C80066DE6C /* DSLetterKeyboard.m */,
-				6137D95E22A8B8C80066DE6C /* DSSymbolKeyboard.h */,
-				6137D95F22A8B8C80066DE6C /* DSSymbolKeyboard.xib */,
-				6137D96022A8B8C80066DE6C /* DSLetterKeyboard.xib */,
-				6137D96122A8B8C80066DE6C /* DSNumberBoard.h */,
-				6137D96222A8B8C80066DE6C /* DSNumberKeyboard.m */,
-				6137D96322A8B8C80066DE6C /* DSBaseKeyboard.m */,
-				6137D96422A8B8C80066DE6C /* DSKyeboard.m */,
-				6137D96522A8B8C80066DE6C /* DSSymbolKeyboard.m */,
-				6137D96622A8B8C80066DE6C /* DSLetterKeyboard.h */,
-				6137D96722A8B8C80066DE6C /* SecurityKeyBoard.bundle */,
-				6137D96822A8B8C80066DE6C /* DSNumberBoard.m */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		6186FC76222D3F39008EF1B5 = {
 			isa = PBXGroup;
 			children = (
-				6137D95922A8B8C80066DE6C /* Views */,
 				610D7DC722894E4D00EF2F37 /* InfoPlist.strings */,
 				6186FC81222D3F39008EF1B5 /* UIWebViewAndWkWebView */,
 				6186FC9A222D3F3B008EF1B5 /* UIWebViewAndWkWebViewTests */,
@@ -340,14 +293,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6137D97022A8B8C80066DE6C /* SecurityKeyBoard.bundle in Resources */,
 				6186FC8F222D3F3B008EF1B5 /* LaunchScreen.storyboard in Resources */,
 				610D7DC522894E4D00EF2F37 /* InfoPlist.strings in Resources */,
-				6137D96B22A8B8C80066DE6C /* DSLetterKeyboard.xib in Resources */,
 				610D7DBB22894C1800EF2F37 /* Info.plist in Resources */,
 				612FD2EE228A9CD6009D245E /* uiwebview.js in Resources */,
 				612FD2E9228A9801009D245E /* index.html in Resources */,
-				6137D96A22A8B8C80066DE6C /* DSSymbolKeyboard.xib in Resources */,
 				6186FC8C222D3F3B008EF1B5 /* Assets.xcassets in Resources */,
 				6186FC8A222D3F39008EF1B5 /* Main.storyboard in Resources */,
 			);
@@ -376,18 +326,12 @@
 			files = (
 				6186FC87222D3F39008EF1B5 /* ViewController.m in Sources */,
 				612FD513228D3CE4009D245E /* WSExtension.m in Sources */,
-				6137D97122A8B8C80066DE6C /* DSNumberBoard.m in Sources */,
 				6186FC92222D3F3B008EF1B5 /* main.m in Sources */,
 				61E956042236079500F4DBB2 /* TestA.m in Sources */,
-				6137D96F22A8B8C80066DE6C /* DSSymbolKeyboard.m in Sources */,
 				612FD2EC228A9C01009D245E /* TestBridge.m in Sources */,
-				6137D96C22A8B8C80066DE6C /* DSNumberKeyboard.m in Sources */,
 				6186FC84222D3F39008EF1B5 /* AppDelegate.m in Sources */,
-				6137D96922A8B8C80066DE6C /* DSLetterKeyboard.m in Sources */,
-				6137D96E22A8B8C80066DE6C /* DSKyeboard.m in Sources */,
 				612FD2F3228ABE2C009D245E /* VKMsgSend.m in Sources */,
 				6186FCB9222D3F6F008EF1B5 /* WSWKWebViewController.m in Sources */,
-				6137D96D22A8B8C80066DE6C /* DSBaseKeyboard.m in Sources */,
 				6186FCB6222D3F56008EF1B5 /* WSUIWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
